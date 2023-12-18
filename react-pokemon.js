@@ -19,4 +19,6 @@ const PokemonList = () => {
     return <div>{pokemonElements}</div>;
 };
 
+console.log(PokemonList);
+
 export default PokemonList;
