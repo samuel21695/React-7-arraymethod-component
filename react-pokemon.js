@@ -10,11 +10,11 @@ const PokemonList = () => {
     return pokemonName;
   });
 
-  const pokemonElements = updatedPokemon.map((pokemonName,
+  const pokemonElements = updatedPokemon.map((pokemonName, index) => (
     <div key={index}>
       <p>{pokemonName}</p>
     </div>
-    ));
+  ));
 
     return <div>{pokemonElements}</div>;
 };
